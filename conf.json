@@ -1,0 +1,18 @@
+{
+    "bot_username":"INSERT YOUR BOT USERNAME HERE",
+    "token": "INSER YOUR BOT TOKEN HERE FROM https://t.me/BotFather",
+    "bot_error_message":"Error generating photo use /pic +prompt (optional :negative: +prompt :steps: 1-30 :seed:1-4294967295 :gscale: 1-20 :size: 512x512) Example: /pic animal, cat, cute",
+    "bot_start_message":"use /pic +prompt (optional :negative: +prompt :steps: 1-30 :seed:1-4294967295 :gscale: 1-20 :size: 512x512) Example: /pic animal, cat, cute",
+    "bot_permission_denied_message":"Permission denied",
+    "default_n_prompt": "blurry, low quality, tiled, out of frame, duplicate, signature, watermark, airbrush, photoshop, text, cropped, jpeg artifacts",
+    "admins": [
+    ],
+    "models": {
+        "model_index_to_use": 0,
+        "model_locations": [
+            "./models/Protogen_x3.4_Official_Release",
+            "darkstorm2150/Protogen_x3.4_Official_Release",
+            "./models/Example"
+        ]
+    }
+}
