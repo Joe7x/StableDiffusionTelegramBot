@@ -1,12 +1,12 @@
-Currently not fully tested. Could contain bugs. Proceed with caution. Requirements.txt file is for NVIDIA gpus only and could not work at all on other devices. Needs more testing
+# Currently not fully tested. Could contain bugs. Proceed with caution. Requirements.txt file is for NVIDIA gpus only and may not work at all on other devices.
 
--Free space needed 32,5 GB for all models and extra stuff. Could probably just download without git lfs. (Large file support) and manually download Pruned if less than 4gb ram or Full 5.5gb version if more than 8gb vram. NSWF safety filter disabled by default and should work just fine without it by adding nsfw, nude, naked in negative prompt if needed. 
+Free space needed ~33 GB for all models and extra stuff. NSFW safety filter disabled by default adding nsfw, nude, naked in negative prompt if needed. 
 
 # 1:
 
 Open Terminal
 
-Commands are for Arch, Manjaro etc. For other distros slightly different.
+Commands are for Arch, Manjaro etc. For other distros they are slightly different.
 
 Optional, but highly recommended: "sudo pacman -Syu" to update all other packages
 
@@ -30,7 +30,7 @@ Change conf.json "model_index_to_use" to 1. First slot is 0, second 1, third 2 e
 
 Automatically installs protogen x3.4.
 
-# Better for more control but does take a long time to download all:
+# Better for more control but does take more time to download all:
 
 Create new folder "models" in same directory as main.py and conf.json.
 
@@ -60,4 +60,4 @@ Closing Terminal shutdowns the bot
 
 # Troubleshooting:
 
-Most common problems: Verify all python pip modules in requirements.txt are installed. (easiest to check with any code editor)
+Most common problem: Verify all python pip modules in requirements.txt are installed. (easiest to check with any code editor)
